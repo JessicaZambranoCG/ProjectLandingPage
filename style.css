@@ -121,6 +121,7 @@ p{
     width: 390px;
     background-color: #1F2937;
     border-radius: 5%;
+    object-fit: cover;
 }
 
 .container-2{
