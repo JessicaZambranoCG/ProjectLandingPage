@@ -17,7 +17,9 @@
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-    padding: 0 16px;
+    padding: 0 24px;
+    margin-left: 100px;
+    margin-right: 200px;
 }
 
 .left-logo{
@@ -26,18 +28,28 @@
 }
 
 .logo{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
+    height: 80px;
+    width: 80px;
+    padding: 30px 20px 0;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 20px;
 }
 
 .links-rigth{
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 ul{
     display: flex;
     list-style: none;
+    gap: 30px;
+    padding: 5px;
 }
 
 a{
@@ -45,30 +57,86 @@ a{
     color:#E5E7EB;
 }
 
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .title-web-sitie{
-    flex-direction: column;
-    align-self: flex-end;
+    align-self: stretch;
+    flex-grow: 4;
 }
 
 .title{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-top: 100px;
+    margin-top: 5px;
+    margin-left: 245px;
+    margin-bottom: 5px;
 }
 
 p{
     font-size: 18px;
     color:#E5E7EB;
     width: 50%;
+    margin-left: 245px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 2em;
+    text-align: justify;
 }
 
-.image-first{
-    align-self: flex-end;
+.sign-up{
+    background-color: #3882F6;
+    font-size: 14px;
+    color:#E5E7EB;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 245px;
+}
 
+.first-image{
+    align-self: stretch;
+    margin-right: 220px;
+    
 }
 
 .image{
-    height: 300px;
-    width: 450px;
+    height: 200px;
+    width: 390px;
+    background-color: #1F2937;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafc;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #bec2c9;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafc;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
 }
