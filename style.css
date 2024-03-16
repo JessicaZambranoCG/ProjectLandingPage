@@ -60,6 +60,7 @@ ul{
 a{
     font-size: 18px;
     color:#E5E7EB;
+    text-decoration: none;
 }
 
 .container-1{
@@ -128,7 +129,7 @@ p{
     display: flex;
     flex-direction: column;
     background-color: #f9fafc;
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
 }
 
 .header-1{
@@ -139,28 +140,29 @@ p{
 }
 
 h3{
+    color: #1F2937;
+    font-weight: 900;
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
 }
 
 .second-image, .third-image, .fourth-image, .fifth-image{
-    width: 150px;
+    width: 200px;
 }
 
 .image-2, .image-3, .image-4, .image-5{
-    height: 220px;
+    height: 250px;
     max-width: 500%;
     object-fit: cover;
-    object-position: center 10 px 20px;
+    object-position: center;
     border-radius: 10px;
     border: #3882F6 solid 5px;
 }
 
 .text{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 18px;
     color: #1F2937;
 }
@@ -168,17 +170,49 @@ h3{
 .container-3{
     display: flex;
     flex-direction: column;
-    background-color: #bec2c9;
+    background-color: #E5E7EB;
+    padding: 150px 150px 100px;
+    align-items: center;
 }
 
-.container-2{
+.header-2{
+    display:flex;
+    justify-content: center;
+}
+
+.text-1{
+    align-self: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+    line-height: 1.5em;
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-right: 160px;
+}
+
+.text-2{
+    margin: 0 190px;
+    text-align: right;
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.container-4{
     display: flex;
     flex-direction: column;
     background-color: #f9fafc;
+    padding: 150px;
 }
 
 .footer{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 40px;
+    color:#E5E7EB;
+    align-items: center;
 }
