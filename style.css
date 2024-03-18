@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: "Roboto", sans-serif;
 }
 
 .body{
@@ -8,7 +9,6 @@
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
 }
 
 .container{
